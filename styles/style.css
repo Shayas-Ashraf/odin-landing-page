@@ -1,18 +1,24 @@
 body {
     width: 100%;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .header,
+.hero,
 .footer {
     background-color: #1f2937;
+    margin: 0;
 }
-.header {
+
+.header,
+.hero {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0px 12%;
 }
+
 header .logo {
     font-size: 24px;
     color: #f9faf8;
@@ -26,9 +32,45 @@ header .logo {
     padding-left: 0;
 }
 
-.header ul li a{
+.header ul li a {
     text-decoration: none;
     font-size: 18px;
     color: #e5e7eb;
     margin-left: 56px;
+}
+.hero {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    gap: 44px;
+}
+.hero-info{
+    align-self: flex-start;
+}
+.hero-info p, a {
+    color: #e5e7eb;
+    font-size: 18px;
+    line-height: 1.4;
+}
+.hero-info h2 {
+    font-size: 48px;
+    margin: 0;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+img {
+    display: block;
+    width: 45%;
+    height: auto;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.btn {
+    background-color: #3882f6;
+    color: #e5e7eb;
+    padding: 8px 18px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 8px;
 }
