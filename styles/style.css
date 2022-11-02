@@ -75,6 +75,35 @@ img {
     border-radius: 8px;
 }
 
+.info {
+    padding: 40px 20%;
+}
+.info h2 {
+    text-align: center;
+    margin: 0;
+}
+.info-div{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.box-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box-info p {
+    width: 150px;
+    text-align: center;
+}
+.box {
+    border: 3px solid #3882f6;
+    height: 150px;
+    width: 150px;
+    border-radius: 12px;
+}
 .quote{
     padding: 40px 12%;
     background-color: #e5e7eb;
