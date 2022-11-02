@@ -74,3 +74,40 @@ img {
     font-size: 14px;
     border-radius: 8px;
 }
+
+.quote{
+    padding: 40px 12%;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+}
+.quote .block-quote {
+    text-align: right;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+}
+.sign-up {
+    padding: 40px 12%;
+    margin: 40px 0;
+}
+.sign-up .sign {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+    background-color: #3882f6;
+    padding: 24px 48px;
+    color: #f9faf8;
+    border-radius: 18px;
+}
+.sign .btn {
+    border-color: #f9faf8;
+}
+.footer {
+    padding: 20px 12%;
+    color: #f9faf8;
+    text-align: center;
+}
